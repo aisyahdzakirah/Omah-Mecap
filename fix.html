@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omah Mecap - Tata Rias Wajah</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+  <!-- NAVBAR -->
+  <nav id="navbarNav" class="navbar navbar-expand-lg navbar-light fixed-top py-2">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+        <div class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+          <i class="fa-solid fa-crown small"></i>
+        </div>
+        <div class="d-flex flex-column">
+          <span class="fw-bold fs-5 text-dark lh-1">Omah Mecap</span>
+          <small class="text-muted text-uppercase" style="font-size: 0.65rem; letter-spacing: 1px;">Tata Rias Wajah</small>
+        </div>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Buka menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+        <ul class="navbar-nav gap-lg-3 text-center my-3 my-lg-0">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#hero">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#layanan">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#testimoni">Testimoni</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#kontak">Kontak</a></li>
+        </ul>
+        <div class="d-lg-none text-center pb-2">
+          <button type="button" class="btn btn-dark rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#bookingModal">Konsultasi</button>
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block">
+        <button type="button" class="btn btn-dark rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#bookingModal">Konsultasi</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero position-relative text-center overflow-hidden d-flex align-items-center">
+    <div class="hero-bg-wrap">
+      <img id="heroImg" src="images/images/hero-makeup.jpg" class="hero-bg" alt="Perlengkapan makeup Omah Mecap">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="container position-relative hero-content">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <span class="hero-badge" data-aos="fade-down" data-aos-delay="100"><i class="fa-solid fa-crown me-2"></i>Tata Rias Profesional</span>
+          <h1 class="fw-bold mb-3" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">Tampil <span class="hero-kata">Istimewa.</span></h1>
+          <p class="lead mb-2" data-aos="fade-up" data-aos-delay="500">Rias wajah profesional untuk setiap momen berharga Anda.</p>
+          <p class="mb-4 fs-5" data-aos="fade-up" data-aos-delay="600">Spesialis riasan <span id="ketik" class="hero-kata fw-semibold"></span><span class="kursor">|</span></p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center" data-aos="fade-up" data-aos-delay="750">
+            <button type="button" class="btn btn-dark btn-hero fw-semibold rounded-pill px-4 py-2" data-bs-toggle="modal" data-bs-target="#bookingModal">Konsultasi Sekarang</button>
+            <a href="#galeri" class="btn btn-hero-outline rounded-pill px-4 py-2">Lihat Karya</a>
+          </div>
+          <div class="hero-fitur" data-aos="fade-up" data-aos-delay="950">
+            <span><i class="fa-solid fa-check"></i>Tahan lama</span>
+            <span><i class="fa-solid fa-check"></i>Tampilan natural</span>
+            <span><i class="fa-solid fa-check"></i>Bisa home service</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#tentang" class="hero-scroll" aria-label="Gulir ke bawah"><span></span></a>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="py-5 bg-white">
+    <div class="container py-4">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/images/about.jpg" class="img-fluid rounded-4 shadow about-img" style="max-height: 450px;" alt="Mastutik Budi Utami" loading="lazy">
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+          <span class="badge bg-secondary text-white text-uppercase mb-2">Tentang Kami</span>
+          <h2 class="display-6 fw-bold mb-3">Mastutik Budi Utami</h2>
+          <p class="text-secondary">Selamat datang di Omah Mecap — rumah kecantikan yang hadir untuk merayakan keindahan setiap wanita. Dipimpin oleh Mastutik Budi Utami, kami menghadirkan riasan profesional yang elegan, tahan lama, dan tetap mencerminkan kepribadian asli Anda.</p>
+          <p class="text-secondary mb-4">Dari riasan pengantin, wisuda, hingga acara spesial lainnya — setiap sentuhan kami dikerjakan dengan penuh cinta dan dedikasi.</p>
+
+          <div class="row text-center g-3 mb-4">
+            <div class="col-4 border-end" data-aos="fade-up" data-aos-delay="100">
+              <h4 class="fw-bold fs-5 mb-1">Rias</h4>
+              <small class="text-muted">Tampilan Personal</small>
+            </div>
+            <div class="col-4 border-end" data-aos="fade-up" data-aos-delay="250">
+              <h4 class="fw-bold fs-5 mb-1">Momen</h4>
+              <small class="text-muted">Pilihan Riasan</small>
+            </div>
+            <div class="col-4" data-aos="fade-up" data-aos-delay="400">
+              <h4 class="fw-bold fs-5 mb-1">Kontak</h4>
+              <small class="text-muted">Konsultasi WA</small>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-dark rounded-pill px-4 py-2" data-bs-toggle="modal" data-bs-target="#bookingModal">Hubungi Kami</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYANAN -->
+  <section id="layanan" class="py-5 bg-light">
+    <div class="container py-4">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="badge bg-secondary text-white mb-2">Layanan</span>
+        <h2 class="fw-bold">Pilihan Layanan Kami</h2>
+        <p class="text-muted">Setiap layanan dirancang untuk membuat Anda tampil terbaik di setiap momen istimewa.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-right" data-aos-delay="100">
+          <div class="card border-0 shadow-sm rounded-4 h-100 hover-card">
+            <img src="images/images/wedding.jpg" class="card-img-top rounded-top-4 service-img" style="height: 220px;" alt="Pengantin" loading="lazy">
+            <div class="card-body p-4 d-flex flex-column">
+              <span class="badge bg-light text-dark border align-self-start mb-2"><i class="fa-solid fa-gem me-1"></i> Pengantin</span>
+              <h5 class="card-title fw-bold">Riasan Pengantin</h5>
+              <p class="card-text text-muted small flex-grow-1">Tampil memukau di hari spesial Anda. Riasan tahan lama, elegan, dan sesuai konsep pernikahan Anda.</p>
+              <a href="#kontak" class="text-dark fw-semibold text-decoration-none mt-3">Hubungi untuk harga <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card border-0 shadow-sm rounded-4 h-100 hover-card">
+            <img src="images/images/graduation.jpg" class="card-img-top rounded-top-4 service-img" style="height: 220px;" alt="Wisuda" loading="lazy">
+            <div class="card-body p-4 d-flex flex-column">
+              <span class="badge bg-light text-dark border align-self-start mb-2"><i class="fa-solid fa-graduation-cap me-1"></i> Wisuda</span>
+              <h5 class="card-title fw-bold">Riasan Wisuda</h5>
+              <p class="card-text text-muted small flex-grow-1">Rayakan pencapaian Anda dengan tampilan segar, natural, dan bercahaya yang sempurna untuk foto kenangan.</p>
+              <a href="#kontak" class="text-dark fw-semibold text-decoration-none mt-3">Hubungi untuk harga <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-left" data-aos-delay="300">
+          <div class="card border-0 shadow-sm rounded-4 h-100 hover-card">
+            <img src="images/images/party.jpg" class="card-img-top rounded-top-4 service-img" style="height: 220px;" alt="Acara" loading="lazy">
+            <div class="card-body p-4 d-flex flex-column">
+              <span class="badge bg-light text-dark border align-self-start mb-2"><i class="fa-solid fa-star me-1"></i> Acara</span>
+              <h5 class="card-title fw-bold">Riasan Acara Khusus</h5>
+              <p class="card-text text-muted small flex-grow-1">Untuk ulang tahun, gathering, photoshoot, dan berbagai acara spesial lainnya. Tampil percaya diri!</p>
+              <a href="#kontak" class="text-dark fw-semibold text-decoration-none mt-3">Hubungi untuk harga <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI -->
+  <section id="galeri" class="py-5 bg-white">
+    <div class="container py-4">
+      <div class="text-center mb-4" data-aos="fade-up">
+        <span class="badge bg-secondary text-white mb-2">Portofolio</span>
+        <h2 class="fw-bold">Galeri Karya Kami</h2>
+        <p class="text-muted">Pilih gaya favoritmu, lalu klik foto untuk memperbesar.</p>
+      </div>
+
+      <div class="galeri-filter" data-aos="fade-up">
+        <button type="button" class="aktif" data-f="semua">Semua</button>
+        <button type="button" data-f="natural">Natural</button>
+        <button type="button" data-f="glam">Glam</button>
+        <button type="button" data-f="pengantin">Pengantin</button>
+        <button type="button" data-f="acara">Acara</button>
+      </div>
+
+      <div class="galeri-grid">
+          <div class="galeri-col" data-aos="fade-right" data-aos-delay="100"><button type="button" class="galeri-item" data-kat="natural" data-bs-toggle="modal" data-bs-target="#galeriModal" data-judul="Soft Look">
+            <img src="images/images/soft.jpg" alt="Soft Look" loading="lazy">
+            <span class="galeri-cap"><small class="text-uppercase">Natural</small><strong>Soft Look</strong></span>
+            <span class="galeri-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+          </button></div>
+          <div class="galeri-col" data-aos="fade-up" data-aos-delay="200"><button type="button" class="galeri-item" data-kat="glam" data-bs-toggle="modal" data-bs-target="#galeriModal" data-judul="Soft Glam">
+            <img src="images/images/elegan.jpg" alt="Soft Glam" loading="lazy">
+            <span class="galeri-cap"><small class="text-uppercase">Elegan</small><strong>Soft Glam</strong></span>
+            <span class="galeri-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+          </button></div>
+          <div class="galeri-col" data-aos="fade-left" data-aos-delay="300"><button type="button" class="galeri-item" data-kat="glam" data-bs-toggle="modal" data-bs-target="#galeriModal" data-judul="Timeless">
+            <img src="images/images/timeless.jpg" alt="Timeless" loading="lazy">
+            <span class="galeri-cap"><small class="text-uppercase">Klasik</small><strong>Timeless</strong></span>
+            <span class="galeri-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+          </button></div>
+          <div class="galeri-col" data-aos="fade-right" data-aos-delay="100"><button type="button" class="galeri-item" data-kat="acara" data-bs-toggle="modal" data-bs-target="#galeriModal" data-judul="Carnaval">
+            <img src="images/images/carnaval.jpg" alt="Carnaval" loading="lazy">
+            <span class="galeri-cap"><small class="text-uppercase">Acara</small><strong>Carnaval</strong></span>
+            <span class="galeri-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+          </button></div>
+          <div class="galeri-col" data-aos="fade-up" data-aos-delay="200"><button type="button" class="galeri-item" data-kat="pengantin" data-bs-toggle="modal" data-bs-target="#galeriModal" data-judul="Bridal">
+            <img src="images/images/natural.jpg" alt="Bridal" loading="lazy">
+            <span class="galeri-cap"><small class="text-uppercase">Pengantin</small><strong>Bridal</strong></span>
+            <span class="galeri-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+          </button></div>
+          </div>
+
+      <div class="text-center mt-5" data-aos="fade-up">
+        <p class="text-muted mb-3">Masih banyak karya lainnya di Instagram kami</p>
+        <a href="https://www.instagram.com/omahmecap/" target="_blank" rel="noopener" class="btn btn-ig rounded-pill px-4 py-2 fw-semibold">
+          <i class="fa-brands fa-instagram me-2"></i> Lihat Lebih Banyak
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-5 bg-light">
+    <div class="container py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="text-center mb-4" data-aos="fade-up">
+            <span class="badge bg-secondary text-white mb-2">FAQ</span>
+            <h2 class="fw-bold">Pertanyaan Umum</h2>
+          </div>
+
+          <div class="accordion shadow-sm rounded-4 overflow-hidden" id="faqAccordion">
+            <div class="accordion-item" data-aos="fade-right" data-aos-delay="100">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                  Apakah perlu booking sebelumnya?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Ya, kami sangat menyarankan booking terlebih dahulu, terutama untuk acara pengantin dan wisuda. Hubungi kami minimal 1 bulan sebelum hari-H agar slot tersedia.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" data-aos="fade-left" data-aos-delay="250">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                  Berapa lama proses riasan?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Durasi riasan bervariasi: riasan natural 45–60 menit, riasan wisuda 60–90 menit, dan riasan pengantin 2–3 jam tergantung konsep yang dipilih.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" data-aos="fade-right" data-aos-delay="400">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                  Apakah bisa home service / panggilan?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Ya, kami melayani home service untuk area tertentu. Biaya tambahan akan disesuaikan dengan jarak lokasi.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONI -->
+  <section id="testimoni" class="py-5 bg-white">
+    <div class="container py-4">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="badge bg-secondary text-white mb-2">Testimoni</span>
+        <h2 class="fw-bold">Cerita Pelanggan</h2>
+        <p class="text-muted">Wajah yang berbeda ciptakan ragam kecantikan yang indah dan anggun.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-right" data-aos-delay="100">
+          <div class="card border-0 bg-light p-4 rounded-4 shadow-sm h-100 hover-card">
+            <p class="card-text text-muted fst-italic mb-4">"Make up nya awet dan tahan lama, dari awal acara sampai akhir acara ga luntur, terimakasih omah mecap"</p>
+            <div class="d-flex align-items-center gap-3 mt-auto">
+              <img src="images/images/client1.jpg" class="avatar rounded-circle object-fit-cover" alt="Client">
+              <div>
+                <h6 class="fw-bold mb-0">Bryana Mercyta</h6>
+                <small class="text-muted">Sangat bagus</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card border-0 bg-light p-4 rounded-4 shadow-sm h-100 hover-card">
+            <p class="card-text text-muted fst-italic mb-4">"Momen paling bahagia jadi indah karna riasan dari omah mecap"</p>
+            <div class="d-flex align-items-center gap-3 mt-auto">
+              <img src="images/images/client2.jpg" class="avatar rounded-circle object-fit-cover" alt="Client">
+              <div>
+                <h6 class="fw-bold mb-0">Izzatul Aura</h6>
+                <small class="text-muted">Perfect</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-left" data-aos-delay="300">
+          <div class="card border-0 bg-light p-4 rounded-4 shadow-sm h-100 hover-card">
+            <p class="card-text text-muted fst-italic mb-4">"Warna yang indah dan tahan lama harganya pun sangat terjangkau"</p>
+            <div class="d-flex align-items-center gap-3 mt-auto">
+              <img src="images/images/client3.jpg" class="avatar rounded-circle object-fit-cover" alt="Client">
+              <div>
+                <h6 class="fw-bold mb-0">Assyifa Nailah</h6>
+                <small class="text-muted">Luar Biasa</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="py-5 bg-light">
+    <div class="container py-4">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="badge bg-secondary text-white mb-2">Hubungi Kami</span>
+        <h2 class="fw-bold">Lokasi &amp; Kirim Pesan</h2>
+        <p class="text-muted">Kunjungi studio kami atau isi form di bawah ini untuk konsultasi seputar layanan kami.</p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+          <div class="card border-0 shadow-sm rounded-4 p-4 p-md-5 h-100">
+            <h4 class="fw-bold mb-4">Kirim Pesan</h4>
+            <form id="formKontak">
+              <div class="mb-3">
+                <label for="nama_lengkap" class="form-label fw-semibold">Nama</label>
+                <input id="nama_lengkap" name="nama_lengkap" type="text" class="form-control rounded-3 py-2" placeholder="Masukkan nama Anda" autocomplete="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email_user" class="form-label fw-semibold">Email</label>
+                <input id="email_user" name="email" type="email" class="form-control rounded-3 py-2" placeholder="nama@email.com" autocomplete="email" required>
+              </div>
+              <div class="mb-4">
+                <label for="pesan_user" class="form-label fw-semibold">Pesan</label>
+                <textarea id="pesan_user" name="pesan_user" class="form-control rounded-3 py-2" rows="4" placeholder="Tuliskan pesan atau kebutuhan riasan Anda..." autocomplete="off" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark rounded-pill px-4 py-2 w-100 fw-semibold">
+                <i class="fa-solid fa-paper-plane me-2"></i> Kirim Pesan
+              </button>
+              <div id="formAlert" class="alert alert-success mt-3 mb-0 d-none" role="alert">Terima kasih! Pesan Anda telah berhasil dikirim.</div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+          <div class="card border-0 shadow-sm rounded-4 p-4 h-100 d-flex flex-column">
+            <h4 class="fw-bold mb-3">Alamat Studio</h4>
+            <p class="text-muted mb-4">
+              <i class="fa-solid fa-location-dot text-danger me-2"></i>
+              Perum. Taman Anggun Sejagtera 4 (Perumtas 4) Blok B4 No.35 Jambangan Candi Sidoarjo
+            </p>
+            <div class="flex-grow-1 rounded-4 overflow-hidden shadow-sm" style="min-height: 250px;">
+              <iframe class="w-100 h-100 border-0" title="Lokasi Omah Mecap" style="min-height: 250px;"
+                src="https://maps.google.com/maps?q=Jambangan+Candi+Sidoarjo&amp;z=14&amp;output=embed"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="bg-dark text-white py-5">
+    <div class="container py-4">
+      <div class="row align-items-center g-4">
+        <div class="col-md-7" data-aos="fade-right">
+          <span class="badge bg-secondary mb-2">Hubungi Kami</span>
+          <h2 class="display-6 fw-bold mb-3">Siap Tampil Istimewa?</h2>
+          <p class="text-white-50 mb-3">Konsultasikan kebutuhan riasan Anda bersama kami.</p>
+          <div class="d-flex flex-column gap-3 mb-4">
+            <a href="https://wa.me/628123035181" target="_blank" rel="noopener" class="kontak-link" aria-label="WhatsApp Omah Mecap">
+              <i class="fa-brands fa-whatsapp text-success me-2"></i> <strong>WhatsApp:</strong> +62 812-3035-181
+            </a>
+            <a href="https://www.instagram.com/omahmecap/" target="_blank" rel="noopener" class="kontak-link" aria-label="Instagram Omah Mecap">
+              <i class="fa-brands fa-instagram text-danger me-2"></i> <strong>Instagram:</strong> @omahmecap
+            </a>
+            <a href="https://www.tiktok.com/@omahmecap3" target="_blank" rel="noopener" class="kontak-link" aria-label="TikTok Omah Mecap">
+              <i class="fa-brands fa-tiktok text-light me-2"></i> <strong>TikTok:</strong> @omahmecap3
+            </a>
+          </div>
+          <button type="button" class="btn btn-light text-dark rounded-pill px-4 py-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
+            <i class="fa-brands fa-whatsapp me-2"></i> Chat di WhatsApp
+          </button>
+        </div>
+        <div class="col-md-5 text-center" data-aos="fade-left">
+          <div class="p-4 border border-secondary rounded-4 d-inline-block">
+            <i class="fa-solid fa-crown display-4 text-warning mb-2"></i>
+            <h3 class="fw-bold mb-0">OMAH MECAP</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white-50 py-4 text-center">
+    <div class="container">
+      <p class="mb-0 small">&copy; 2026 Omah Mecap. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL BOOKING -->
+  <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="bookingModalLabel">Konsultasi Omah Mecap</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body py-4">
+          <p class="text-muted small mb-4">Silakan kirim detail acara, preferensi makeup, dan tanggal yang diinginkan melalui WhatsApp.</p>
+          <a href="https://wa.me/628123035181" target="_blank" rel="noopener" class="btn btn-dark w-100 rounded-pill py-2 fw-semibold">
+            <i class="fa-brands fa-whatsapp me-2"></i> Chat via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL GALERI (lightbox) -->
+  <div class="modal fade" id="galeriModal" tabindex="-1" aria-labelledby="galeriJudul" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border-0 rounded-4 overflow-hidden">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="galeriJudul">Galeri</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-0 text-center">
+          <img id="galeriBesar" src="" alt="" class="img-fluid" style="max-height: 75vh;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
